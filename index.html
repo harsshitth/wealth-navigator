@@ -1,4 +1,4 @@
-    <script>
+<script>
         function formatIndianNumber(num) {
             if (!num) return '';
             let n = num.toString().replace(/,/g, '');
@@ -39,6 +39,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wealth Navigator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -96,20 +97,25 @@
         }
 
         h1 {
-            font-size: 3em;
-            font-weight: 600;
-            letter-spacing: -1px;
+            font-size: 3.5em;
+            font-weight: 400;
+            letter-spacing: 2px;
             margin-bottom: 10px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            font-family: 'Alice', serif;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
         }
 
         .tagline {
             font-size: 1.1em;
             color: #7f8c8d;
-            font-weight: 400;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
+            text-transform: uppercase;
         }
 
         .card {
